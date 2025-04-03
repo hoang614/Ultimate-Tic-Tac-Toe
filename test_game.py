@@ -141,5 +141,4 @@ def play_human_vs_ai(ai_player_module, rule=2,playerFirst = 1):
             if turn >= 81:
                 is_game_done = True
 
-# Chạy game: AI là '_2213291_2211612_2211069', người chơi là O
 play_human_vs_ai('botAI', 2,-1)
